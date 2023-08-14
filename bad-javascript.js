@@ -1,4 +1,3 @@
-test
 
 for (;;) {  // Noncompliant; end condition omitted
     // ...
