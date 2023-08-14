@@ -1,16 +1,16 @@
-//test
+test
 
-// for (;;) {  // Noncompliant; end condition omitted
-//     // ...
-//   }
+for (;;) {  // Noncompliant; end condition omitted
+    // ...
+  }
   
-//   var j = 0;
-//   while (true) { // Noncompliant; constant end condition
-//     j++;
-//   }
+  var j = 0;
+  while (true) { // Noncompliant; constant end condition
+    j++;
+  }
   
-//   var k;
-//   var b = true;
-//   while (b) { // Noncompliant; constant end condition
-//     k++;
-//   }
+  var k;
+  var b = true;
+  while (b) { // Noncompliant; constant end condition
+    k++;
+  }
